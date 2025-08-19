@@ -36,7 +36,7 @@ jobs:
     - name: Unit Test Cases
       run: mvn test
 
-build_project_and_sonar_scan:
+  build_project_and_sonar_scan:
     runs-on: self-hosted
     needs: test
     steps:
